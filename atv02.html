@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="atv02.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Virtual</title>
+</head>
+
+<body>
+    <!--Cabeçalho-------------------------------------->
+    <div class="cabecalho">
+        <h1>Escola Virtual</h1>
+        <h2>Formulário de Pré-Matricula</h2>
+        <br><hr><br>
+    </div>
+    <!------------------------------------------------->
+    <center>
+        <table id="bloco_full">
+            <!--BLOCO 1-------------------------------->
+            <div>
+                <tr id="bloco_1">
+                    <td>
+                        <h3>Dados Pessoais</h3>
+                        <form class="form_1" action="form_1" method="GET">
+                            Nome do Aluno:
+                            <input type="text" placeholder="digite seu nome" id="nome_aluno">
+                            <br>
+                            Nascimento:
+                            <input type="text" placeholder="DD" class="data" id="dia_nsc">
+                            /
+                            <input type="text" placeholder="MM" class="data" id="mes_nsc">
+                            /
+                            <input type="text" placeholder="AAAA" class="ano" id="ano_nsc">
+                            <br>
+                            Nome da Mãe:
+                            <input type="text" placeholder="digite o nome da sua mãe" id="nome_mae">
+                            <br>
+                            Nome da Pai:
+                            <input type="text" placeholder="digite o nome do seu pai" id="nome_pai">
+                            <br>
+                            Telefone:
+                            (<input type="text" placeholder="DDD" class="ddd" id="ddd">) Tel: <input type="tel" id="tel" placeholder="XXXXX-XXXX"> Ramal: <input type="text" class="ddd" id="ramal">
+                            <br>
+                            Email:
+                            <input type="email" placeholder="digite seu email" id="email">
+                        </form>
+                    </td>
+                </tr>
+            </div>
+            <!----------------------------------------->
+            <tr id="bloco_2"> 
+                <td>
+                        <form action="form_2" method="GET">
+                            
+                            <div id="serie">
+                                <p>Série:</p>
+                                <select name="série" id="seletor" size="1">
+                                    <option value="pre">Pré-Escola</option>
+                                    <option value="fund">Ensino Fundamental</option>
+                                    <option value="medio">Ensino Médio</option>
+                                </select>
+                            </div>
+                </td>   
+                <td>
+
+                        <p>Turno</p>
+                        <input type="radio" class="check" name="turno" id="manhã" checked>Manhã
+                        <br>
+                        <input type="radio" class="check" name="turno" id="tarde">Tarde
+                </td>
+                <td>
+                    <p>Atividades Extracurriculares:</p>
+                    <input type="checkbox" class="check" name="Informática" id="informatica">Informática
+                    <br>
+                    <input type="checkbox" class="check" name="Música" id="musica">Música
+                    <br>
+                    <input type="checkbox" class="check" name="Ballet" id="ballet">Ballet
+                    <br>
+                    <input type="checkbox" class="check" name="Pintura" id="pintura">Pintura
+                    <br>
+                    <input type="checkbox" class="check" name="Judô" id="judo">Judô
+                    <br>
+                    <input type="checkbox" class="check" name="Futebol" id="futebol">Futebol
+                    </div>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br>
+    <div class="botoes">
+        <button name="envia" onclick="enviar()">Envia Formulário</button>
+        <button name="limpa" onclick="limpar()">Limpa Campos</button>
+    </div>
+
+    <script Language="JavaScript">
+<!--
+    function limpar() {
+        document.getElementById('nome_aluno').value='';
+        document.getElementById('dia_nsc').value='';
+        document.getElementById('mes_nsc').value='';
+        document.getElementById('ano_nsc').value='';
+        document.getElementById('nome_mae').value='';
+        document.getElementById('nome_pai').value='';
+        document.getElementById('tel').value='';
+        document.getElementById('ddd').value='';
+        document.getElementById('ramal').value='';
+        document.getElementById('email').value='';
+        document.getElementById('seletor').value=0;
+        informatica.checked = false;
+        musica.checked = false;
+        ballet.checked = false;
+        pintura.checked = false;
+        judo.checked = false;
+        futebol.checked = false;
+        manhã.checked = true;
+        tarde.checked = false;
+        alert('Todos os itens removidos.')
+    }
+
+    function enviar() {
+        alert('Informações salvas, logo entraremos em contato. Muito obrigado pelo seu tempo!')
+    }
+-->
+    </script>
+
+</body>
+<footer>
+    <p>By: み Eleotério </p>
+</footer>
+</html>

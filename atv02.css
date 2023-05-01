@@ -1,0 +1,181 @@
+.cabecalho {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, #101013, #141620);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+.form_1 {
+    text-align: center;
+}
+
+/*definindo o tamanho dos inputs especificos*/
+.data {
+    width: 30px;
+}
+.ano {
+    width: 40px;
+}
+input {
+    margin: 3px;
+}
+.ddd {
+    width: 43px;
+}
+#tel {
+    width: 100px;
+}
+/*-------------------------------*/
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    
+}
+p {
+    font-weight: 200;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .check {
+    text-decoration: none;
+    background: none;
+    width: 30px;
+    border-left: none;
+    border-top: none;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0px;
+    box-shadow: none;
+    backdrop-filter: none;
+  } 
+
+  input {
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  }
+
+  input:focus,
+  select:focus {
+   outline: none;
+   border: none;
+   box-shadow: 0 0 0 1px white;
+  }
+
+  input::placeholder {
+    color: rgb(70, 70, 70);
+  }
+
+#bloco_1 {
+    padding: 10px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgba(233, 240, 253, 0.055);
+    padding: 3em;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+#bloco_2 {
+    display: inline-table;
+    padding-left: 300px;
+    padding-right: 300px;
+    align-items: center;
+    background: rgba(233, 240, 253, 0.075);
+    padding: 3em;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+#bloco_full {
+    justify-content: center;
+    background: rgba(255,255,255,0.3);
+    padding: 3em;
+    height: 320px;
+    border-radius: 20px;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 200px;
+    padding: 1em;
+    margin: 10px;
+    border: none;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.925);
+    color: black;
+}
+
+select {
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.219);
+    width: 200px;
+    padding: 1em;
+    margin: 10px;
+    border: none;
+    border-left: 1px solid rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-radius: 5000px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    color: rgb(22, 22, 22);
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
